@@ -1,0 +1,2 @@
+# .git is kept on purpose: the image must hold the full history of the mayhem branch.
+mayhem/_build
