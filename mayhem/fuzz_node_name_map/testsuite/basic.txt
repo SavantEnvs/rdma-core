@@ -1,0 +1,3 @@
+# node name map
+0x0002c90300000a01 "core switch" # comment
+0x0002c90300000b01 hca-one

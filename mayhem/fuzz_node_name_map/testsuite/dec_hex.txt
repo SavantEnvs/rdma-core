@@ -1,0 +1,5 @@
+1234 "decimal guid"
+0XABCDEF0123456789   upper-hex
+  0x1 "indented"
+
+#only comment

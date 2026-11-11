@@ -1,0 +1,9 @@
+project: savantenvs/rdma-core
+target: fuzz_ibmad
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_ibmad/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_ibmad
+    libfuzzer: true
+    timeout: 10
